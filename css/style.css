@@ -6,17 +6,18 @@
   }
 
   
-  /* .topnav div:hover {
+ /* .topnav div:hover {
     background-color: rgb(221, 22, 138);
     color: white;
-  }
+  } */
   
   .topnav div.active {
     background-color: rgb(228, 138, 190);
     color: white;
-  } */
+  } 
 .image-div {
   width: 10%;
+  margin: auto;
   float: left;
 }
   .logo-image{
@@ -27,7 +28,7 @@
     text-decoration: none;
     font-size: 100%;
     width: 46px;
-    height: 56px;
+    height: 46px;
     overflow: hidden;
     margin-top: -6px;
   }
