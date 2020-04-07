@@ -1,3 +1,24 @@
+@font-face {
+  font-family: 'nexa_bold';
+  src: url('nexabold.woff2') format('woff2'),
+       url('nexabold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'nexa_light';
+  src: url('nexalight.woff2') format('woff2'),
+       url('nexalight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+body {
+  font-family: "nexa_light";
+}
 .topnav {
   overflow: hidden;
     background-color: wheat;
@@ -16,6 +37,7 @@
     color: white;
   } 
 .image-div {
+  font-family: "nexa_bold";
   width: 10%;
   margin: auto;
   float: left;
