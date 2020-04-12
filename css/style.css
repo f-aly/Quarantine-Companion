@@ -1,3 +1,6 @@
+* {
+}
+
 @font-face {
   font-family: 'nexa_bold';
   src: url('nexabold.woff2') format('woff2'),
@@ -18,6 +21,8 @@
 
 body {
   font-family: "nexa_light";
+  color: wheat;
+  background-image: url("../media/nebula1.jpg");
 }
 .topnav {
   overflow: hidden;
