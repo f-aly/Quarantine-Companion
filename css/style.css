@@ -18,6 +18,10 @@
 
 html {
   
+}
+
+body {
+  font-family: "nexa_light";
   background-image: url("../media/nebula1.jpg");
   /* Full height */
   height: 100%; 
@@ -26,10 +30,6 @@ html {
   background-position: center;
   background-repeat: repeat;
   background-size: cover;
-}
-
-body {
-  font-family: "nexa_light";
 }
 
 /* ===== NAV BAR STYLE ===== */
