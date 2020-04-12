@@ -1,6 +1,3 @@
-* {
-}
-
 @font-face {
   font-family: 'nexa_bold';
   src: url('nexabold.woff2') format('woff2'),
@@ -21,26 +18,36 @@
 
 body {
   font-family: "nexa_light";
-  color: wheat;
   background-image: url("../media/nebula1.jpg");
 }
+
+/* ===== NAV BAR STYLE ===== */
+
 .topnav {
   overflow: hidden;
-    background-color: wheat;
     width: 100%;
     height: 50%;
   }
-
   
  /* .topnav div:hover {
     background-color: rgb(221, 22, 138);
     color: white;
   } */
   
-  .topnav div.active {
+  /* .topnav div.active {
     background-color: rgb(228, 138, 190);
     color: white;
+  } */
+
+  .titleWhenHover {
+    display: none;
+  }
+
+
+  .logo-image:hover .titleWhenHover {
+    display: block;
   } 
+
 .image-div {
   font-family: "nexa_bold";
   width: 10%;
@@ -49,7 +56,7 @@ body {
 }
   .logo-image{
     float: left;
-    color: rgb(221, 83, 164);
+    color: white;
     text-align: center;
     padding: 50px;
     text-decoration: none;
@@ -71,4 +78,11 @@ body {
 
 .icon:hover{
   transform: scale(2);
+  }
+
+  /* ===== MAIN TEXT: SUMMARY FOR NOW ===== */
+
+  .main-text {
+    text-align: center;
+    color: whitesmoke;
   }
